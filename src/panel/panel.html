@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>YouTube Summarizer</title>
+    <link rel="stylesheet" href="panel.css" />
+  </head>
+  <body>
+    <header class="bar">
+      <h1>Summarizer</h1>
+      <div class="bar-actions">
+        <button id="refresh" type="button" title="Re-read the current video">Refresh</button>
+        <button id="open-options" type="button" title="Provider settings">Settings</button>
+      </div>
+    </header>
+    <main id="view" aria-live="polite"></main>
+    <footer id="status" role="status"></footer>
+    <script type="module" src="panel.js"></script>
+  </body>
+</html>
